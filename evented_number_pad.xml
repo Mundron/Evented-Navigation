@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<KeyPackage>
+		<KeyGroup isActive="yes" isFolder="yes">
+			<name>evented number pad</name>
+			<packageName></packageName>
+			<script></script>
+			<command></command>
+			<keyCode>-1</keyCode>
+			<keyModifier>-1</keyModifier>
+			<Key isActive="yes" isFolder="no">
+				<name>8: norden</name>
+				<packageName></packageName>
+				<script>local direction="norden"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>56</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+8: nordunten</name>
+					<packageName></packageName>
+					<script>local direction="nordunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>56</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+8: nordoben</name>
+					<packageName></packageName>
+					<script>local direction="nordoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>56</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>9: nordosten</name>
+				<packageName></packageName>
+				<script>local direction="nordosten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>57</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+9: nordostunten</name>
+					<packageName></packageName>
+					<script>local direction="nordostunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>57</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+9: nordostoben</name>
+					<packageName></packageName>
+					<script>local direction="nordostoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>57</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>6: osten</name>
+				<packageName></packageName>
+				<script>local direction="osten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>54</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+6: ostunten</name>
+					<packageName></packageName>
+					<script>local direction="ostunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>54</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+6: ostoben</name>
+					<packageName></packageName>
+					<script>local direction="ostoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>54</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>3: suedosten</name>
+				<packageName></packageName>
+				<script>local direction="suedosten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>51</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+3: suedostunten</name>
+					<packageName></packageName>
+					<script>local direction="suedostunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>51</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+3: suedostoben</name>
+					<packageName></packageName>
+					<script>local direction="suedostoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>51</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>2: sueden</name>
+				<packageName></packageName>
+				<script>local direction="sueden"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>50</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+2: suedunten</name>
+					<packageName></packageName>
+					<script>local direction="suedunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>50</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+2: suedoben</name>
+					<packageName></packageName>
+					<script>local direction="suedoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>50</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>1: suedwesten</name>
+				<packageName></packageName>
+				<script>local direction="suedwesten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>49</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+1: suedwestunten</name>
+					<packageName></packageName>
+					<script>local direction="suedwestunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>49</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+1: suedwestoben</name>
+					<packageName></packageName>
+					<script>local direction="suedwestoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>49</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>4: westen</name>
+				<packageName></packageName>
+				<script>local direction="westen"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>52</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+4: westunten</name>
+					<packageName></packageName>
+					<script>local direction="westunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>52</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+4: westoben</name>
+					<packageName></packageName>
+					<script>local direction="westoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>52</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>7: nordwesten</name>
+				<packageName></packageName>
+				<script>local direction="nordwesten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>55</keyCode>
+				<keyModifier>536870912</keyModifier>
+				<Key isActive="yes" isFolder="no">
+					<name>Strg+7: nordwestunten</name>
+					<packageName></packageName>
+					<script>local direction="nordwestunten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>55</keyCode>
+					<keyModifier>603979776</keyModifier>
+				</Key>
+				<Key isActive="yes" isFolder="no">
+					<name>Alt+7: nordwestoben</name>
+					<packageName></packageName>
+					<script>local direction="nordwestoben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+					<command></command>
+					<keyCode>55</keyCode>
+					<keyModifier>671088640</keyModifier>
+				</Key>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>-: oben</name>
+				<packageName></packageName>
+				<script>local direction="oben"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>45</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>+: unten</name>
+				<packageName></packageName>
+				<script>local direction="unten"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>43</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>x: raus</name>
+				<packageName></packageName>
+				<script>local direction="raus"
+local room=gmcp.MG.room.info
+
+raiseEvent("movedirection", room, direction)
+send(direction)</script>
+				<command></command>
+				<keyCode>42</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>/: kurz</name>
+				<packageName></packageName>
+				<script>local newmodus = ""
+
+if ME.modus == "lang" then
+  newmodus = "kurz"
+elseif ME.modus == "kurz" then
+  newmodus = "ultrakurz"
+elseif ME.modus == "ultrakurz" then
+  newmodus = "lang"
+else
+  newmodus = "kurz"
+end
+
+ME.modus = newmodus
+send(newmodus)</script>
+				<command></command>
+				<keyCode>47</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>,: ausruestung</name>
+				<packageName></packageName>
+				<script></script>
+				<command>ausruestung</command>
+				<keyCode>44</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>5: schau</name>
+				<packageName></packageName>
+				<script></script>
+				<command>schau</command>
+				<keyCode>53</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>0: inventory</name>
+				<packageName></packageName>
+				<script></script>
+				<command>inv</command>
+				<keyCode>48</keyCode>
+				<keyModifier>536870912</keyModifier>
+			</Key>
+		</KeyGroup>
+	</KeyPackage>
+</MudletPackage>
